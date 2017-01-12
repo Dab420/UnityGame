@@ -9,7 +9,7 @@ public class Spawner : MonoBehaviour
     int floors = 3;
     float yPos = 1;
     // Use this for initialization
-    void Start()
+    void Start() //fuck detta
     {
         for (int j = 0; j < floors; j++)
         {

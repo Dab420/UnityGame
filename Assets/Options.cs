@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Options : MonoBehaviour {
     static public bool option1;
-    void ChooseOption(string optionName)
+    public void ChooseOption(string optionName)
     {
         switch(optionName)
         {
